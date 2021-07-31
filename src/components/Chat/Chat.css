@@ -1,0 +1,30 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 70%;
+  background-color: #818181;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #eee;
+  border-radius: 8px;
+  height: 70%;
+  width: 35%;
+
+}
+
+@media screen and (max-width:600px){
+  .outerContainer{
+    width: 90%;
+  }
+  .container{
+    width: 80%;
+  }
+}
+
